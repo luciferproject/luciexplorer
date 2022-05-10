@@ -146,13 +146,13 @@ export default class Header extends Component {
         return (
             <div>
                 <GHeader style={{
-                    backgroundColor: 'orange',
+                    backgroundColor: 'black',
                     paddingLeft: '2.3em',
                     paddingRight: '2.3em',
                 }} fixed={false}>
                     <Link to="/" style={{color: 'black', textDecoration: 'none'}}>
                         <Title style="">
-                            MoneroChain<div style={{color: 'white'}}>beta</div>
+                            Lucifer<div style={{color: 'red'}}>beta</div>
                         </Title>
                     </Link>
                     <Box flex={true}
